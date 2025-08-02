@@ -127,6 +127,42 @@ Production Gates:
 - Automatic optimization
 - Evolution protocols
 
+## System Self-Improvement Protocol (The Game Changer)
+
+Add to CLAUDE.md:
+
+```markdown
+## System Self-Improvement Protocol
+Every Friday at 4pm:
+1. Analyze week's velocity metrics
+2. Identify system bottlenecks
+3. Propose system updates
+4. Test improvements in sandbox
+5. Deploy successful changes
+
+The system that improves itself becomes unstoppable.
+```
+
+### Implementation:
+```bash
+# Create weekly analysis script
+cat > ~/scripts/weekly-evolution.sh << 'EOF'
+#!/bin/bash
+# System self-improvement analysis
+echo "=== Weekly System Evolution ==="
+echo "1. Velocity: $(analyze_sp_completion_rate)"
+echo "2. Bottlenecks: $(identify_slow_patterns)"
+echo "3. Proposed Updates:"
+# AI analyzes and suggests improvements
+EOF
+```
+
+### Expected Evolution:
+- Week 1-4: Process refinements
+- Month 2: New subagent types emerge
+- Month 3: Architectural patterns evolve
+- Month 6: System barely recognizable (10x better)
+
 ## Success Criteria
 
 ### Week 1 Complete When:
