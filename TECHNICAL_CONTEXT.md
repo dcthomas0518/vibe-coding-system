@@ -55,3 +55,49 @@ Single Claude Code instance orchestrating specialized sub-agents for all develop
 - Git checkpoints enforce atomic changes
 
 ---
+
+## V2 System Architecture Update - August 3, 2025
+
+### Transition to 10-Agent Specialist Model
+Moving from 8 generalist agents to 10 deep specialists for A++ performance.
+
+### Updated Architecture
+```yaml
+~/.claude/agents/
+├── architect.md           # System design (created)
+├── dev-lead.md           # Development leadership (created)  
+├── frontend-dev.md       # UI/UX + artifacts (created)
+├── backend-dev.md        # Server-side (pending)
+├── qa-engineer.md        # Quality assurance (pending)
+├── security.md           # Security specialist (pending)
+├── data-engineer.md      # Data systems (pending)
+├── devops.md            # Infrastructure (pending)
+├── perf-engineer.md      # Performance (pending)
+└── tech-writer.md        # Documentation (pending)
+```
+
+### Key Architectural Decisions
+1. **CTO as Main Thread**: Claude Code main = CTO, not separate subagent
+2. **Stateless Subagents**: Each starts fresh, no memory persistence
+3. **Tool Specialization**: Each agent has specific tool access
+4. **Frontend Owns Artifacts**: All UI/UAT artifacts via frontend-dev
+
+### Infrastructure Components
+```
+~/scripts/token-monitor.sh     # Usage tracking (implemented)
+~/.claude/mcp.json            # Playwright config (implemented)
+~/claude-metrics/             # Usage metrics directory
+```
+
+### Delegation Patterns
+```
+CTO analyzes request
+  → Parallel delegation to specialists
+    → architect designs first
+    → dev-lead implements per design
+    → frontend-dev creates artifacts
+    → qa-engineer validates
+  → CTO synthesizes results
+```
+
+---
