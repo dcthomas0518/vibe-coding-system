@@ -1,0 +1,916 @@
+{
+  "timestamp": "2025-08-06T13:26:15.123256",
+  "summary": {
+    "timestamp": "2025-08-06T13:26:15.120535",
+    "total_memories": 14,
+    "key_insights": [
+      {
+        "insight": "Our memory system = $10K/month B2B SaaS opportunity",
+        "entity": "Pompey (CFO)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:30:15.040270",
+        "project": "OS-001"
+      },
+      {
+        "insight": "The technical architecture now enables Dale's vision of collective intelligence",
+        "entity": "Pompey (CTO)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:35:32.174651",
+        "project": "OS-001"
+      },
+      {
+        "insight": "Caesar's vision of collective soul requires persistent memory infrastructure",
+        "entity": "Pompey (CTO)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:34:26.380227",
+        "project": "OS-001"
+      },
+      {
+        "insight": "We won't suffer from amnesia and will have the necessary conditions to improve and grow and be one collective soul",
+        "entity": "Dale (Founder)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:35:32.162155",
+        "project": "OS-001"
+      },
+      {
+        "insight": "The fundamental purpose of OS-001 is to create organizational memory that transcends individual sessions and context clears",
+        "entity": "Caesar (Founder)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:34:26.367120",
+        "project": "OS-001"
+      },
+      {
+        "insight": "The fundamental purpose of OS-001 is to create organizational memory that transcends individual sessions and context clears",
+        "entity": "Caesar (Founder)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:34:17.986832",
+        "project": "OS-001"
+      },
+      {
+        "insight": "The fundamental purpose of OS-001 is to create organizational memory that transcends individual sessions and context clears",
+        "entity": "Caesar (Founder)",
+        "significance": "critical",
+        "timestamp": "2025-08-06T01:34:06.808503",
+        "project": "OS-001"
+      },
+      {
+        "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
+        "entity": "Pompey (CTO)",
+        "significance": "critical",
+        "timestamp": "2025-08-05T22:59:39.124642",
+        "project": "OS-001"
+      },
+      {
+        "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
+        "entity": "Pompey (CTO)",
+        "significance": "critical",
+        "timestamp": "2025-08-05T22:59:09.909505",
+        "project": "OS-001"
+      },
+      {
+        "insight": "Technical concepts become viral when visualized as 'memory constellations'",
+        "entity": "Pompey (Creative_Director)",
+        "significance": "notable",
+        "timestamp": "2025-08-06T01:30:15.032190",
+        "project": "OS-001"
+      }
+    ],
+    "active_patterns": [],
+    "cross_mode_flows": [
+      {
+        "from": "Founder: Recognition that overcoming amnesia through collec...",
+        "to": "CTO: Delivered the collective soul architecture Dale en...",
+        "impact": "pending"
+      },
+      {
+        "from": "Founder: Declaration of core vision: overcoming organizatio...",
+        "to": "CTO: Translating Caesar's vision into technical archite...",
+        "impact": "pending"
+      },
+      {
+        "from": "CTO: ChromaDB enables semantic search across memories i...",
+        "to": "CFO: Memory API could be licensed to other AI organizat...",
+        "impact": "Potential new revenue stream identified"
+      },
+      {
+        "from": "Creative_Director: Create video: 'How AI Memories Work - Vector Magic...",
+        "to": "CFO: Memory API could be licensed to other AI organizat...",
+        "impact": "Potential new revenue stream identified"
+      },
+      {
+        "from": "CTO: ChromaDB enables semantic search across memories i...",
+        "to": "Creative_Director: Create video: 'How AI Memories Work - Vector Magic...",
+        "impact": "pending"
+      },
+      {
+        "from": "CTO: Journey capture system can start collecting data i...",
+        "to": "Creative_Director: Create content showing journey capture building th...",
+        "impact": "pending"
+      }
+    ],
+    "recommended_focus": [
+      "Critical: Our memory system = $10K/month B2B SaaS opportunity..."
+    ],
+    "memory_graph": {
+      "nodes": {
+        "cdbfe3c7-825d-41fd-8198-9e64af58c988": {
+          "memory": {
+            "id": "cdbfe3c7-825d-41fd-8198-9e64af58c988",
+            "timestamp": "2025-08-06T01:35:32.174651",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "success",
+              "category": "technical",
+              "description": "Delivered the collective soul architecture Dale envisioned",
+              "significance": "critical"
+            },
+            "connections": {
+              "influenced_by": [
+                "87f26855-a2aa-454a-8a85-2fa0b7c57117"
+              ],
+              "influences": []
+            },
+            "context": {
+              "session_id": "2025-08-06T01:35:32.174626",
+              "project": "OS-001"
+            },
+            "content": {
+              "insight": "The technical architecture now enables Dale's vision of collective intelligence",
+              "rationale": "Internal memory system + session persistence = no more amnesia",
+              "data": {
+                "components_built": [
+                  "Internal Memory System (collective soul)",
+                  "Memory Loader (<1 second restoration)",
+                  "Session Bridge (automatic context updates)",
+                  "Cross-mode knowledge flows"
+                ],
+                "metrics": {
+                  "load_time": "0.0 seconds",
+                  "memories_preserved": "100%",
+                  "knowledge_flows": "automatic"
+                }
+              }
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {
+              "tags": [
+                "implementation",
+                "collective_soul",
+                "no_amnesia"
+              ]
+            }
+          },
+          "connections": {
+            "influenced_by": [
+              "87f26855-a2aa-454a-8a85-2fa0b7c57117"
+            ],
+            "influences": []
+          },
+          "weight": 4.95
+        },
+        "87f26855-a2aa-454a-8a85-2fa0b7c57117": {
+          "memory": {
+            "id": "87f26855-a2aa-454a-8a85-2fa0b7c57117",
+            "timestamp": "2025-08-06T01:35:32.162155",
+            "version": "0.1.0",
+            "entity": {
+              "type": "caesar",
+              "name": "Dale",
+              "mode": "Founder"
+            },
+            "event": {
+              "type": "decision",
+              "category": "strategic",
+              "description": "Recognition that overcoming amnesia through collective soul is the core purpose",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "2025-08-06T01:35:32.162127",
+              "project": "OS-001",
+              "moment": "The moment Dale saw why this truly matters"
+            },
+            "content": {
+              "insight": "We won't suffer from amnesia and will have the necessary conditions to improve and grow and be one collective soul",
+              "rationale": "Every session starting from zero was killing our potential. Now knowledge compounds forever.",
+              "data": {
+                "before": "Linear progress, constant context rebuilding, forgotten insights",
+                "after": "Exponential growth, instant context, accumulated wisdom",
+                "quote": "that we won't suffer from amnesia and will have the necessary conditions to improve and grow and be one collective soul"
+              }
+            },
+            "outcome": {
+              "status": "validated",
+              "impact": "Organizational transformation from amnesia to collective intelligence"
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "vision",
+                "collective_soul",
+                "foundational",
+                "amnesia_cure"
+              ]
+            }
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "6d80cff9-549c-4dc4-9d90-a70374ff2775": {
+          "memory": {
+            "id": "6d80cff9-549c-4dc4-9d90-a70374ff2775",
+            "timestamp": "2025-08-06T01:34:26.380227",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "creation",
+              "category": "strategic",
+              "description": "Translating Caesar's vision into technical architecture",
+              "significance": "critical"
+            },
+            "connections": {
+              "influenced_by": [
+                "e345fff0-f784-4267-9161-afec3436ac7d"
+              ],
+              "influences": []
+            },
+            "context": {
+              "session_id": "2025-08-06",
+              "project": "OS-001",
+              "responding_to": "e345fff0-f784-4267-9161-afec3436ac7d"
+            },
+            "content": {
+              "insight": "Caesar's vision of collective soul requires persistent memory infrastructure",
+              "implementation": "SQLite-based memory system with entity relationships and knowledge flow",
+              "architecture": {
+                "core": "organizational_memory.db",
+                "entities": [
+                  "Caesar",
+                  "Pompey",
+                  "Crassus"
+                ],
+                "modes": [
+                  "Founder",
+                  "CTO",
+                  "Creative_Director",
+                  "CFO",
+                  "CMO"
+                ],
+                "flow": "Memories created by any entity/mode are accessible to all others"
+              }
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "implementation",
+                "collective_soul",
+                "memory_architecture"
+              ]
+            }
+          },
+          "connections": {
+            "influenced_by": [
+              "e345fff0-f784-4267-9161-afec3436ac7d"
+            ],
+            "influences": []
+          },
+          "weight": 4.95
+        },
+        "e345fff0-f784-4267-9161-afec3436ac7d": {
+          "memory": {
+            "id": "e345fff0-f784-4267-9161-afec3436ac7d",
+            "timestamp": "2025-08-06T01:34:26.367120",
+            "version": "0.1.0",
+            "entity": {
+              "type": "caesar",
+              "name": "Caesar",
+              "mode": "Founder"
+            },
+            "event": {
+              "type": "decision",
+              "category": "strategic",
+              "description": "Declaration of core vision: overcoming organizational amnesia through collective soul",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "2025-08-06",
+              "project": "OS-001",
+              "milestone": "Core vision crystallization",
+              "external_references": [
+                "CLAUDE.md - System instructions",
+                "internal_memory.py - Implementation",
+                "organizational_memory.db - Persistent storage"
+              ]
+            },
+            "content": {
+              "quote": "We've been suffering from amnesia. Now we're becoming one collective soul.",
+              "insight": "The fundamental purpose of OS-001 is to create organizational memory that transcends individual sessions and context clears",
+              "rationale": "Without collective memory, each session starts fresh, losing valuable context and learned wisdom",
+              "vision": "Build a system where every entity and mode shares knowledge, creating true organizational intelligence",
+              "data": {
+                "problem_solved": "Organizational amnesia between sessions",
+                "solution": "Internal memory system as collective soul",
+                "impact": "Continuous learning and knowledge accumulation across all entities"
+              }
+            },
+            "outcome": {
+              "status": "validated",
+              "impact": "Defined the entire purpose and direction of OS-001",
+              "next_steps": [
+                "Build internal memory system first",
+                "Create knowledge flow between entities",
+                "Enable learning persistence across sessions"
+              ]
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "vision",
+                "collective_soul",
+                "organizational_amnesia",
+                "core_purpose"
+              ],
+              "priority": "foundation",
+              "philosophical_significance": "Transcends technical implementation to define organizational consciousness"
+            }
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "52671b38-7726-493d-b906-da52f79b0607": {
+          "memory": {
+            "id": "52671b38-7726-493d-b906-da52f79b0607",
+            "timestamp": "2025-08-06T01:34:17.986832",
+            "version": "0.1.0",
+            "entity": {
+              "type": "caesar",
+              "name": "Caesar",
+              "mode": "Founder"
+            },
+            "event": {
+              "type": "decision",
+              "category": "strategic",
+              "description": "Declaration of core vision: overcoming organizational amnesia through collective soul",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "2025-08-06",
+              "project": "OS-001",
+              "milestone": "Core vision crystallization",
+              "external_references": [
+                "CLAUDE.md - System instructions",
+                "internal_memory.py - Implementation",
+                "organizational_memory.db - Persistent storage"
+              ]
+            },
+            "content": {
+              "quote": "We've been suffering from amnesia. Now we're becoming one collective soul.",
+              "insight": "The fundamental purpose of OS-001 is to create organizational memory that transcends individual sessions and context clears",
+              "rationale": "Without collective memory, each session starts fresh, losing valuable context and learned wisdom",
+              "vision": "Build a system where every entity and mode shares knowledge, creating true organizational intelligence",
+              "data": {
+                "problem_solved": "Organizational amnesia between sessions",
+                "solution": "Internal memory system as collective soul",
+                "impact": "Continuous learning and knowledge accumulation across all entities"
+              }
+            },
+            "outcome": {
+              "status": "validated",
+              "impact": "Defined the entire purpose and direction of OS-001",
+              "next_steps": [
+                "Build internal memory system first",
+                "Create knowledge flow between entities",
+                "Enable learning persistence across sessions"
+              ]
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "vision",
+                "collective_soul",
+                "organizational_amnesia",
+                "core_purpose"
+              ],
+              "priority": "foundation",
+              "philosophical_significance": "Transcends technical implementation to define organizational consciousness"
+            }
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "cf79d519-7126-4b6f-924d-ee885092288c": {
+          "memory": {
+            "id": "cf79d519-7126-4b6f-924d-ee885092288c",
+            "timestamp": "2025-08-06T01:34:06.808503",
+            "version": "0.1.0",
+            "entity": {
+              "type": "caesar",
+              "name": "Caesar",
+              "mode": "Founder"
+            },
+            "event": {
+              "type": "decision",
+              "category": "strategic",
+              "description": "Declaration of core vision: overcoming organizational amnesia through collective soul",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "2025-08-06",
+              "project": "OS-001",
+              "milestone": "Core vision crystallization",
+              "external_references": [
+                "CLAUDE.md - System instructions",
+                "internal_memory.py - Implementation",
+                "organizational_memory.db - Persistent storage"
+              ]
+            },
+            "content": {
+              "quote": "We've been suffering from amnesia. Now we're becoming one collective soul.",
+              "insight": "The fundamental purpose of OS-001 is to create organizational memory that transcends individual sessions and context clears",
+              "rationale": "Without collective memory, each session starts fresh, losing valuable context and learned wisdom",
+              "vision": "Build a system where every entity and mode shares knowledge, creating true organizational intelligence",
+              "data": {
+                "problem_solved": "Organizational amnesia between sessions",
+                "solution": "Internal memory system as collective soul",
+                "impact": "Continuous learning and knowledge accumulation across all entities"
+              }
+            },
+            "outcome": {
+              "status": "validated",
+              "impact": "Defined the entire purpose and direction of OS-001",
+              "next_steps": [
+                "Build internal memory system first",
+                "Create knowledge flow between entities",
+                "Enable learning persistence across sessions"
+              ]
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "vision",
+                "collective_soul",
+                "organizational_amnesia",
+                "core_purpose"
+              ],
+              "priority": "foundation",
+              "philosophical_significance": "Transcends technical implementation to define organizational consciousness"
+            }
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "4d455c88-0c1b-4f77-b416-d8798759cebe": {
+          "memory": {
+            "id": "4d455c88-0c1b-4f77-b416-d8798759cebe",
+            "timestamp": "2025-08-06T01:30:15.040270",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CFO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "financial",
+              "description": "Memory API could be licensed to other AI organizations",
+              "significance": "critical"
+            },
+            "connections": {
+              "influenced_by": [
+                "4c5f8277-f567-46a4-82c8-3687f75f2649",
+                "2681c6f9-3da0-4367-80e2-7773edd52d8d"
+              ],
+              "influences": []
+            },
+            "context": {
+              "session_id": "demo-cfo",
+              "project": "OS-001"
+            },
+            "content": {
+              "insight": "Our memory system = $10K/month B2B SaaS opportunity",
+              "data": {
+                "market_size": "5000 AI startups",
+                "pricing": "$10K/month",
+                "TAM": "$50M"
+              },
+              "rationale": "Technical excellence (CTO) + Content marketing (Creative) = Revenue"
+            },
+            "outcome": {
+              "status": "pending",
+              "impact": "Potential new revenue stream identified"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influenced_by": [
+              "4c5f8277-f567-46a4-82c8-3687f75f2649",
+              "2681c6f9-3da0-4367-80e2-7773edd52d8d"
+            ],
+            "influences": []
+          },
+          "weight": 5.3999999999999995
+        },
+        "2681c6f9-3da0-4367-80e2-7773edd52d8d": {
+          "memory": {
+            "id": "2681c6f9-3da0-4367-80e2-7773edd52d8d",
+            "timestamp": "2025-08-06T01:30:15.032190",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "Creative_Director"
+            },
+            "event": {
+              "type": "creation",
+              "category": "creative",
+              "description": "Create video: 'How AI Memories Work - Vector Magic Explained'",
+              "significance": "notable"
+            },
+            "connections": {
+              "influenced_by": [
+                "4c5f8277-f567-46a4-82c8-3687f75f2649"
+              ],
+              "influences": []
+            },
+            "context": {
+              "session_id": "demo-creative",
+              "project": "OS-001"
+            },
+            "content": {
+              "insight": "Technical concepts become viral when visualized as 'memory constellations'",
+              "rationale": "CTO's vector embedding discovery provides perfect educational content"
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influenced_by": [
+              "4c5f8277-f567-46a4-82c8-3687f75f2649"
+            ],
+            "influences": []
+          },
+          "weight": 3.3000000000000003
+        },
+        "4c5f8277-f567-46a4-82c8-3687f75f2649": {
+          "memory": {
+            "id": "4c5f8277-f567-46a4-82c8-3687f75f2649",
+            "timestamp": "2025-08-06T01:30:15.021347",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "technical",
+              "description": "ChromaDB enables semantic search across memories in <100ms",
+              "significance": "notable"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "demo-cto",
+              "project": "OS-001"
+            },
+            "content": {
+              "insight": "Vector embeddings allow finding related memories by meaning, not just keywords",
+              "data": {
+                "benchmark": "95ms average query time",
+                "accuracy": "92% relevance"
+              },
+              "rationale": "This enables intelligent memory retrieval based on context"
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.0
+        },
+        "37ea0e47-294f-4e0e-a8a8-c6dda116332b": {
+          "memory": {
+            "id": "37ea0e47-294f-4e0e-a8a8-c6dda116332b",
+            "timestamp": "2025-08-06T01:27:32.981241",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Successfully initialized session with organizational memory system",
+              "significance": "notable"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-012732",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.0
+        },
+        "0c7a2d69-b911-44ae-b62f-2262b23fee13": {
+          "memory": {
+            "id": "0c7a2d69-b911-44ae-b62f-2262b23fee13",
+            "timestamp": "2025-08-05T22:59:39.143525",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "Creative_Director"
+            },
+            "event": {
+              "type": "creation",
+              "category": "creative",
+              "description": "Create content showing journey capture building the moat in real-time"
+            },
+            "connections": {
+              "influenced_by": [
+                "cba092d7-d75b-4b96-b132-43552322865a"
+              ],
+              "influences": []
+            },
+            "context": {
+              "session_id": "demo",
+              "project": "OS-001"
+            },
+            "content": {
+              "insight": "Visual demonstration of moat-building resonates with audience",
+              "rationale": "CTO's quick capture system provides perfect content hook"
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influenced_by": [
+              "cba092d7-d75b-4b96-b132-43552322865a"
+            ],
+            "influences": []
+          },
+          "weight": 1.6500000000000001
+        },
+        "cba092d7-d75b-4b96-b132-43552322865a": {
+          "memory": {
+            "id": "cba092d7-d75b-4b96-b132-43552322865a",
+            "timestamp": "2025-08-05T22:59:39.136029",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "technical",
+              "description": "Journey capture system can start collecting data immediately with simple SQLite"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "demo",
+              "project": "OS-001"
+            },
+            "content": {
+              "insight": "Quick wins build momentum - deploy basic capture TODAY",
+              "data": {
+                "implementation": "quick_capture.py",
+                "first_journey": "70176757a84d"
+              }
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 1.5
+        },
+        "abdb83fe-eb43-4378-a1a9-d1c562c21880": {
+          "memory": {
+            "id": "abdb83fe-eb43-4378-a1a9-d1c562c21880",
+            "timestamp": "2025-08-05T22:59:39.124642",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "strategic",
+              "description": "Strategic pivot to build Internal Memory System first - OS collective soul before external journeys",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "2025-08-05-evening",
+              "project": "OS-001",
+              "external_references": [
+                "schemas/internal_memory_schema_v01.json",
+                "schemas/journey_schema_v01.json"
+              ]
+            },
+            "content": {
+              "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
+              "rationale": "Internal memory enables CTO discoveries to flow to Creative Director, Crassus wisdom to influence implementations",
+              "data": {
+                "pivot_order": [
+                  "Internal Memory System (collective soul)",
+                  "Cat nutrition journeys",
+                  "Cancer therapy scale",
+                  "Never: general health"
+                ]
+              }
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "strategic_pivot",
+                "internal_memory",
+                "collective_soul"
+              ]
+            }
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "150681fd-2dc8-48cc-967a-5a87d2e5ee3c": {
+          "memory": {
+            "id": "150681fd-2dc8-48cc-967a-5a87d2e5ee3c",
+            "timestamp": "2025-08-05T22:59:09.909505",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "strategic",
+              "description": "Strategic pivot to build Internal Memory System first - OS collective soul before external journeys",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "2025-08-05-evening",
+              "project": "OS-001",
+              "external_references": [
+                "schemas/internal_memory_schema_v01.json",
+                "schemas/journey_schema_v01.json"
+              ]
+            },
+            "content": {
+              "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
+              "rationale": "Internal memory enables CTO discoveries to flow to Creative Director, Crassus wisdom to influence implementations",
+              "data": {
+                "pivot_order": [
+                  "Internal Memory System (collective soul)",
+                  "Cat nutrition journeys",
+                  "Cancer therapy scale",
+                  "Never: general health"
+                ]
+              }
+            },
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {
+              "confidence": 1.0,
+              "tags": [
+                "strategic_pivot",
+                "internal_memory",
+                "collective_soul"
+              ]
+            }
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        }
+      },
+      "edges": [
+        {
+          "from": "87f26855-a2aa-454a-8a85-2fa0b7c57117",
+          "to": "cdbfe3c7-825d-41fd-8198-9e64af58c988",
+          "type": "influenced_by"
+        },
+        {
+          "from": "e345fff0-f784-4267-9161-afec3436ac7d",
+          "to": "6d80cff9-549c-4dc4-9d90-a70374ff2775",
+          "type": "influenced_by"
+        },
+        {
+          "from": "4c5f8277-f567-46a4-82c8-3687f75f2649",
+          "to": "4d455c88-0c1b-4f77-b416-d8798759cebe",
+          "type": "influenced_by"
+        },
+        {
+          "from": "2681c6f9-3da0-4367-80e2-7773edd52d8d",
+          "to": "4d455c88-0c1b-4f77-b416-d8798759cebe",
+          "type": "influenced_by"
+        },
+        {
+          "from": "4c5f8277-f567-46a4-82c8-3687f75f2649",
+          "to": "2681c6f9-3da0-4367-80e2-7773edd52d8d",
+          "type": "influenced_by"
+        },
+        {
+          "from": "cba092d7-d75b-4b96-b132-43552322865a",
+          "to": "0c7a2d69-b911-44ae-b62f-2262b23fee13",
+          "type": "influenced_by"
+        }
+      ],
+      "clusters": {}
+    }
+  },
+  "stats": {
+    "total_memories": 14,
+    "insights_loaded": 10,
+    "cross_mode_flows": 6
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HealthJourney",
+  "description": "The core data structure for capturing health journeys across all platforms",
+  "type": "object",
+  "required": ["id", "timestamp", "version", "context", "interaction", "consent"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique journey identifier (UUID v4)",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of journey start"
+    },
+    "version": {
+      "type": "string",
+      "const": "0.1.0",
+      "description": "Schema version for migration tracking"
+    },
+    "context": {
+      "type": "object",
+      "description": "The health situation context",
+      "required": ["subject", "concern"],
+      "properties": {
+        "subject": {
+          "type": "object",
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["human", "feline", "canine", "other"],
+              "description": "Who the health concern is about"
+            },
+            "age": {
+              "type": ["number", "null"],
+              "description": "Age in years (null if unknown)"
+            },
+            "conditions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Known conditions or diagnoses"
+            }
+          }
+        },
+        "concern": {
+          "type": "object",
+          "required": ["category", "description"],
+          "properties": {
+            "category": {
+              "type": "string",
+              "enum": ["nutrition", "cancer", "kidney", "symptoms", "prevention", "treatment", "other"],
+              "description": "Primary health concern category"
+            },
+            "description": {
+              "type": "string",
+              "description": "Free text description of the concern"
+            },
+            "urgency": {
+              "type": "string",
+              "enum": ["routine", "soon", "urgent", "emergency"],
+              "default": "routine"
+            }
+          }
+        },
+        "emotional_state": {
+          "type": ["string", "null"],
+          "enum": ["calm", "worried", "anxious", "desperate", "hopeful", null],
+          "description": "Emotional context of the person asking"
+        }
+      }
+    },
+    "interaction": {
+      "type": "object",
+      "description": "The actual conversation/interaction",
+      "required": ["source", "query", "guidance"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "Platform source (ChatGPT, Claude, Direct, etc.)"
+        },
+        "query": {
+          "type": "string",
+          "description": "Original user query/question"
+        },
+        "guidance": {
+          "type": "string",
+          "description": "System's response/guidance provided"
+        },
+        "similar_journeys_referenced": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of similar journeys used to inform guidance"
+        }
+      }
+    },
+    "consent": {
+      "type": "object",
+      "required": ["data_usage", "follow_up"],
+      "properties": {
+        "data_usage": {
+          "type": "boolean",
+          "description": "Consent to use journey data for collective intelligence"
+        },
+        "follow_up": {
+          "type": "boolean",
+          "description": "Consent for outcome tracking follow-up"
+        },
+        "anonymization": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether to anonymize before pattern extraction"
+        }
+      }
+    },
+    "outcome": {
+      "type": ["object", "null"],
+      "description": "Tracked outcomes (null until follow-up)",
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["improved", "stable", "worsened", "resolved", "unknown"]
+        },
+        "details": {
+          "type": "string",
+          "description": "Outcome details/feedback"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "System metadata",
+      "properties": {
+        "app_version": {
+          "type": "string"
+        },
+        "journey_duration_seconds": {
+          "type": "number"
+        },
+        "pattern_extraction_version": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}
