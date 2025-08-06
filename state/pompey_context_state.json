@@ -1,0 +1,26 @@
+{
+  "member": "pompey",
+  "timestamp": "2025-08-06T18:25:46.097583",
+  "reason": "Emergency token limit exceeded",
+  "token_count": 341750,
+  "work_status": "sub_agent_active",
+  "work_complexity": "complex",
+  "current_work": {
+    "task": null,
+    "started_at": null,
+    "complexity": "complex",
+    "status": "sub_agent_active",
+    "protected": true,
+    "natural_breakpoints": [
+      {
+        "time": "2025-08-06T18:25:46.093314",
+        "status": "completed",
+        "tokens": 98250
+      }
+    ],
+    "sub_agent": "architect",
+    "sub_task": "Design next-gen architecture"
+  },
+  "session_duration": 0,
+  "performance_status": "\ud83d\udea8 Emergency - Must Reboot"
+}

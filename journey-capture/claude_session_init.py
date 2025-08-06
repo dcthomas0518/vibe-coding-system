@@ -76,6 +76,33 @@ def initialize_claude_session():
         print("\n💡 Quick Context:")
         print(prompt)
         
+        # Step 10: Initialize OS-004 Context Management
+        try:
+            sys.path.insert(0, str(Path("~/vibe-coding-system/os_modules/os_004_context_management").expanduser()))
+            from context_manager import ContextManager
+            
+            # Get member name from context
+            member_name = memory_context.get('context_markers', {}).get('member', 'pompey')
+            
+            # Initialize context manager
+            context_mgr = ContextManager(member_name)
+            resume_state = context_mgr.check_resume_state()
+            
+            if resume_state:
+                print(f"\n🔄 Context Management: Resuming from intelligent reboot")
+                print(f"   Previous session: {resume_state['timestamp']}")
+                print(f"   Reason: {resume_state['reason']}")
+                print(f"   Work status: {resume_state['work_status']}")
+                context_mgr.restore_work_state(resume_state)
+            else:
+                print(f"\n✨ Context Management: Starting fresh at peak performance")
+                print(f"   Tokens: 0 (Optimal: <40K)")
+                print(f"   Member: {member_name}")
+                
+        except Exception as cm_error:
+            # Context management not available yet, continue
+            print(f"\n📊 Context Management: Not yet available (OS-004 pending)")
+        
         return memory_context
         
     except FileNotFoundError as e:

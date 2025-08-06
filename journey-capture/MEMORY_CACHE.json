@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-08-06T13:26:15.120572",
+  "timestamp": "2025-08-06T18:18:49.492716",
   "summary": {
-    "timestamp": "2025-08-06T13:26:15.120535",
-    "total_memories": 14,
+    "timestamp": "2025-08-06T18:18:49.492667",
+    "total_memories": 15,
     "key_insights": [
       {
         "insight": "Our memory system = $10K/month B2B SaaS opportunity",
@@ -113,6 +113,42 @@
     ],
     "memory_graph": {
       "nodes": {
+        "96e6c461-4413-4794-b18e-be480a7ab631": {
+          "memory": {
+            "id": "96e6c461-4413-4794-b18e-be480a7ab631",
+            "timestamp": "2025-08-06T13:26:15.125346",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Successfully initialized session with organizational memory system",
+              "significance": "notable"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-132615",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.0
+        },
         "cdbfe3c7-825d-41fd-8198-9e64af58c988": {
           "memory": {
             "id": "cdbfe3c7-825d-41fd-8198-9e64af58c988",
