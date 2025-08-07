@@ -1,0 +1,3 @@
+# OS-002.1 Vector Search Dependencies
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
