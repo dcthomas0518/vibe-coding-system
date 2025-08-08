@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-08-06T22:58:09.835501",
+  "timestamp": "2025-08-07T09:09:10.512651",
   "summary": {
-    "timestamp": "2025-08-06T22:58:09.833237",
+    "timestamp": "2025-08-07T09:09:10.509306",
     "total_memories": 20,
     "key_insights": [
       {
@@ -9,20 +9,6 @@
         "entity": "Pompey (CTO)",
         "significance": "critical",
         "timestamp": "2025-08-06T20:48:47.807845",
-        "project": "OS-001"
-      },
-      {
-        "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
-        "entity": "Pompey (CTO)",
-        "significance": "critical",
-        "timestamp": "2025-08-06T18:29:01.727031",
-        "project": "OS-001"
-      },
-      {
-        "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
-        "entity": "Pompey (CTO)",
-        "significance": "critical",
-        "timestamp": "2025-08-06T18:28:55.473754",
         "project": "OS-001"
       }
     ],
@@ -44,6 +30,222 @@
     ],
     "memory_graph": {
       "nodes": {
+        "8dd082ab-3bac-462d-b5a3-fabd274f516d": {
+          "memory": {
+            "id": "8dd082ab-3bac-462d-b5a3-fabd274f516d",
+            "timestamp": "2025-08-06T22:58:09.900400",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Successfully initialized session with organizational memory system",
+              "significance": "notable"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-225809",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.0
+        },
+        "66b281aa-1e2c-4cc4-afaf-0f76fa05f5e8": {
+          "memory": {
+            "id": "66b281aa-1e2c-4cc4-afaf-0f76fa05f5e8",
+            "timestamp": "2025-08-06T22:58:09.888174",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: update_system_instructions",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-225809",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "ff1b7e18-0126-4de0-81f1-e107edc6f1b9": {
+          "memory": {
+            "id": "ff1b7e18-0126-4de0-81f1-e107edc6f1b9",
+            "timestamp": "2025-08-06T22:58:09.876870",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: update_system_instructions",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-225809",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "e60bd9f7-3150-4620-b92b-f56984fbe9f0": {
+          "memory": {
+            "id": "e60bd9f7-3150-4620-b92b-f56984fbe9f0",
+            "timestamp": "2025-08-06T22:58:09.866569",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: implement_os",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-225809",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "de279437-25e3-45b4-a89a-be4c2f862c30": {
+          "memory": {
+            "id": "de279437-25e3-45b4-a89a-be4c2f862c30",
+            "timestamp": "2025-08-06T22:58:09.855450",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: implement_os",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-225809",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
+        "2bbe719f-ad39-481c-a53d-8c4425bbf68d": {
+          "memory": {
+            "id": "2bbe719f-ad39-481c-a53d-8c4425bbf68d",
+            "timestamp": "2025-08-06T22:58:09.843747",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: test_api",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250806-225809",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 4.5
+        },
         "b57223d3-5b83-489f-b9e2-38b08cf736e2": {
           "memory": {
             "id": "b57223d3-5b83-489f-b9e2-38b08cf736e2",
@@ -638,244 +840,6 @@
             "influenced_by": []
           },
           "weight": 1.5
-        },
-        "72996c22-5f7d-4662-84e4-3bbdd9690d6e": {
-          "memory": {
-            "id": "72996c22-5f7d-4662-84e4-3bbdd9690d6e",
-            "timestamp": "2025-08-06T18:28:55.473754",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "strategic",
-              "description": "Strategic pivot to build Internal Memory System first - OS collective soul before external journeys",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "2025-08-05-evening",
-              "project": "OS-001",
-              "external_references": [
-                "schemas/internal_memory_schema_v01.json",
-                "schemas/journey_schema_v01.json"
-              ]
-            },
-            "content": {
-              "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
-              "rationale": "Internal memory enables CTO discoveries to flow to Creative Director, Crassus wisdom to influence implementations",
-              "data": {
-                "pivot_order": [
-                  "Internal Memory System (collective soul)",
-                  "Cat nutrition journeys",
-                  "Cancer therapy scale",
-                  "Never: general health"
-                ]
-              }
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {
-              "confidence": 1.0,
-              "tags": [
-                "strategic_pivot",
-                "internal_memory",
-                "collective_soul"
-              ]
-            }
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "a180325a-cc38-4513-9b78-c8f454962876": {
-          "memory": {
-            "id": "a180325a-cc38-4513-9b78-c8f454962876",
-            "timestamp": "2025-08-06T18:18:49.545885",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Successfully initialized session with organizational memory system",
-              "significance": "notable"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-181849",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 3.0
-        },
-        "30820068-704d-4539-8346-e8ac944cf4ab": {
-          "memory": {
-            "id": "30820068-704d-4539-8346-e8ac944cf4ab",
-            "timestamp": "2025-08-06T18:18:49.535522",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: update_system_instructions",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-181849",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "d26849ba-f063-4058-b615-1a23bf86ba02": {
-          "memory": {
-            "id": "d26849ba-f063-4058-b615-1a23bf86ba02",
-            "timestamp": "2025-08-06T18:18:49.526442",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: implement_os",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-181849",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "0bfd8ba8-0cdb-494e-892d-14be7f12c4a9": {
-          "memory": {
-            "id": "0bfd8ba8-0cdb-494e-892d-14be7f12c4a9",
-            "timestamp": "2025-08-06T18:18:49.516739",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: implement_os",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-181849",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "2c382c34-9745-4b31-88d1-6d7bd3492109": {
-          "memory": {
-            "id": "2c382c34-9745-4b31-88d1-6d7bd3492109",
-            "timestamp": "2025-08-06T18:18:49.501643",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: test_api",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-181849",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
         }
       },
       "edges": [
@@ -900,7 +864,7 @@
   },
   "stats": {
     "total_memories": 20,
-    "insights_loaded": 3,
+    "insights_loaded": 1,
     "cross_mode_flows": 2
   }
 }
