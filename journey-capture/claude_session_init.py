@@ -76,9 +76,9 @@ def initialize_claude_session():
         print("\n💡 Quick Context:")
         print(prompt)
         
-        # Step 10: Initialize OS-004 Context Management
+        # Step 10: Initialize Studio Module 004 Consciousness Management
         try:
-            sys.path.insert(0, str(Path("~/vibe-coding-system/os_modules/os_004_context_management").expanduser()))
+            sys.path.insert(0, str(Path("~/vibe-coding-system/studio_modules/studio_004_consciousness_management").expanduser()))
             from context_manager import ContextManager
             
             # Get member name from context
@@ -100,8 +100,8 @@ def initialize_claude_session():
                 print(f"   Member: {member_name}")
                 
         except Exception as cm_error:
-            # Context management not available yet, continue
-            print(f"\n📊 Context Management: Not yet available (OS-004 pending)")
+            # Consciousness management not available yet, continue
+            print(f"\n📊 Consciousness Management: Not yet available (Studio Module 004 pending)")
         
         return memory_context
         
@@ -135,7 +135,7 @@ def create_session_memory(event_description: str, significance: str = "routine")
         },
         context={
             "session_id": f"session-{time.strftime('%Y%m%d-%H%M%S')}",
-            "project": "OS-001"  # Should be dynamic
+            "project": "Studio-001"  # Should be dynamic
         }
     )
 

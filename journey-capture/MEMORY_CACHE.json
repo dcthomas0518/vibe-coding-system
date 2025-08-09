@@ -1,35 +1,266 @@
 {
-  "timestamp": "2025-08-07T09:09:10.509351",
+  "timestamp": "2025-08-08T22:26:03.127769",
   "summary": {
-    "timestamp": "2025-08-07T09:09:10.509306",
-    "total_memories": 20,
-    "key_insights": [
-      {
-        "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
-        "entity": "Pompey (CTO)",
-        "significance": "critical",
-        "timestamp": "2025-08-06T20:48:47.807845",
-        "project": "OS-001"
-      }
-    ],
+    "timestamp": "2025-08-08T22:26:03.127752",
+    "total_memories": 15,
+    "key_insights": [],
     "active_patterns": [],
-    "cross_mode_flows": [
-      {
-        "from": "CTO: Journey capture system can start collecting data i...",
-        "to": "Creative_Director: Create content showing journey capture building th...",
-        "impact": "pending"
-      },
-      {
-        "from": "CTO: Journey capture system can start collecting data i...",
-        "to": "Creative_Director: Create content showing journey capture building th...",
-        "impact": "pending"
-      }
-    ],
-    "recommended_focus": [
-      "Critical: The OS needs a collective soul where knowledge flows between entities and modes..."
-    ],
+    "cross_mode_flows": [],
+    "recommended_focus": [],
     "memory_graph": {
       "nodes": {
+        "41892b25-9fc1-4b81-afb3-6f8fc695f419": {
+          "memory": {
+            "id": "41892b25-9fc1-4b81-afb3-6f8fc695f419",
+            "timestamp": "2025-08-07T09:09:10.582593",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Successfully initialized session with organizational memory system",
+              "significance": "notable"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 2.4
+        },
+        "fcfb0cd5-84a0-4fdf-a865-9410a9099a75": {
+          "memory": {
+            "id": "fcfb0cd5-84a0-4fdf-a865-9410a9099a75",
+            "timestamp": "2025-08-07T09:09:10.573592",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: implement_os",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.5999999999999996
+        },
+        "fa6a1f86-0235-4a12-bcb2-ce0e49e8bc7e": {
+          "memory": {
+            "id": "fa6a1f86-0235-4a12-bcb2-ce0e49e8bc7e",
+            "timestamp": "2025-08-07T09:09:10.564107",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: implement_os",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.5999999999999996
+        },
+        "8cefaf56-1d45-4ad3-9a65-06f9fc066898": {
+          "memory": {
+            "id": "8cefaf56-1d45-4ad3-9a65-06f9fc066898",
+            "timestamp": "2025-08-07T09:09:10.552449",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: update_system_instructions",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.5999999999999996
+        },
+        "9c2f5327-c9e5-4288-823e-fb09758efd30": {
+          "memory": {
+            "id": "9c2f5327-c9e5-4288-823e-fb09758efd30",
+            "timestamp": "2025-08-07T09:09:10.544468",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: implement_os",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.5999999999999996
+        },
+        "5a213655-54f2-4edb-ac88-c9a3ead2fc21": {
+          "memory": {
+            "id": "5a213655-54f2-4edb-ac88-c9a3ead2fc21",
+            "timestamp": "2025-08-07T09:09:10.534795",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: implement_os",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.5999999999999996
+        },
+        "778e0db6-a168-495c-a080-d783d5240912": {
+          "memory": {
+            "id": "778e0db6-a168-495c-a080-d783d5240912",
+            "timestamp": "2025-08-07T09:09:10.524249",
+            "version": "0.1.0",
+            "entity": {
+              "type": "pompey",
+              "name": "Pompey",
+              "mode": "CTO"
+            },
+            "event": {
+              "type": "discovery",
+              "category": "operational",
+              "description": "Auto-executed Crassus request: test_api",
+              "significance": "critical"
+            },
+            "connections": {
+              "influences": [],
+              "influenced_by": []
+            },
+            "context": {
+              "session_id": "session-20250807-090910",
+              "project": "OS-001"
+            },
+            "content": {},
+            "outcome": {
+              "status": "pending"
+            },
+            "metadata": {}
+          },
+          "connections": {
+            "influences": [],
+            "influenced_by": []
+          },
+          "weight": 3.5999999999999996
+        },
         "8dd082ab-3bac-462d-b5a3-fabd274f516d": {
           "memory": {
             "id": "8dd082ab-3bac-462d-b5a3-fabd274f516d",
@@ -64,7 +295,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 3.0
+          "weight": 2.4
         },
         "66b281aa-1e2c-4cc4-afaf-0f76fa05f5e8": {
           "memory": {
@@ -100,7 +331,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 4.5
+          "weight": 3.5999999999999996
         },
         "ff1b7e18-0126-4de0-81f1-e107edc6f1b9": {
           "memory": {
@@ -136,7 +367,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 4.5
+          "weight": 3.5999999999999996
         },
         "e60bd9f7-3150-4620-b92b-f56984fbe9f0": {
           "memory": {
@@ -172,7 +403,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 4.5
+          "weight": 3.5999999999999996
         },
         "de279437-25e3-45b4-a89a-be4c2f862c30": {
           "memory": {
@@ -208,7 +439,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 4.5
+          "weight": 3.5999999999999996
         },
         "2bbe719f-ad39-481c-a53d-8c4425bbf68d": {
           "memory": {
@@ -244,49 +475,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 4.5
-        },
-        "b57223d3-5b83-489f-b9e2-38b08cf736e2": {
-          "memory": {
-            "id": "b57223d3-5b83-489f-b9e2-38b08cf736e2",
-            "timestamp": "2025-08-06T20:48:47.826581",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "Creative_Director"
-            },
-            "event": {
-              "type": "creation",
-              "category": "creative",
-              "description": "Create content showing journey capture building the moat in real-time"
-            },
-            "connections": {
-              "influenced_by": [
-                "91d0c255-d5cb-48a6-9554-012f19b81a3d"
-              ],
-              "influences": []
-            },
-            "context": {
-              "session_id": "demo",
-              "project": "OS-001"
-            },
-            "content": {
-              "insight": "Visual demonstration of moat-building resonates with audience",
-              "rationale": "CTO's quick capture system provides perfect content hook"
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influenced_by": [
-              "91d0c255-d5cb-48a6-9554-012f19b81a3d"
-            ],
-            "influences": []
-          },
-          "weight": 1.6500000000000001
+          "weight": 3.5999999999999996
         },
         "91d0c255-d5cb-48a6-9554-012f19b81a3d": {
           "memory": {
@@ -327,7 +516,7 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 1.5
+          "weight": 1.2
         },
         "dc89adcb-ea3b-4255-956f-561f4fac37f7": {
           "memory": {
@@ -385,480 +574,10 @@
             "influences": [],
             "influenced_by": []
           },
-          "weight": 4.5
-        },
-        "d7607871-c8be-4643-a608-b6a8f818e654": {
-          "memory": {
-            "id": "d7607871-c8be-4643-a608-b6a8f818e654",
-            "timestamp": "2025-08-06T20:48:31.020692",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Successfully initialized session with organizational memory system",
-              "significance": "notable"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-204831",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 3.0
-        },
-        "5283da36-9417-4b4f-bf5f-94189f04a53e": {
-          "memory": {
-            "id": "5283da36-9417-4b4f-bf5f-94189f04a53e",
-            "timestamp": "2025-08-06T20:48:31.009386",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: update_system_instructions",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-204831",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "021ded75-def3-4ddf-a965-f46d9b39f8df": {
-          "memory": {
-            "id": "021ded75-def3-4ddf-a965-f46d9b39f8df",
-            "timestamp": "2025-08-06T20:48:31.000793",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: implement_os",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-204830",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "f29c5c88-8e23-46e2-9f5a-160beb5f0f13": {
-          "memory": {
-            "id": "f29c5c88-8e23-46e2-9f5a-160beb5f0f13",
-            "timestamp": "2025-08-06T20:48:30.992278",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: implement_os",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-204830",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "7f91bb6a-85aa-4e52-bb2a-741e88d540b8": {
-          "memory": {
-            "id": "7f91bb6a-85aa-4e52-bb2a-741e88d540b8",
-            "timestamp": "2025-08-06T20:48:30.980651",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "operational",
-              "description": "Auto-executed Crassus request: test_api",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "session-20250806-204830",
-              "project": "OS-001"
-            },
-            "content": {},
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "76bfc941-afa7-48d8-bc4e-93338593bdf9": {
-          "memory": {
-            "id": "76bfc941-afa7-48d8-bc4e-93338593bdf9",
-            "timestamp": "2025-08-06T18:29:43.342897",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "success",
-              "category": "technical",
-              "description": "OS-004 Intelligent Context Management complete - peak performance maintenance for all 22 specialists through smart reboots at natural breakpoints"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "31307ae1-bb1b-42bc-b3ed-6bf126e648d3",
-              "project": "OS-001",
-              "sprint": "current",
-              "significance": "critical"
-            },
-            "content": {
-              "achievement": "Implemented intelligent context management that prevents brain fog across all 22 specialist personalities",
-              "impact": "Maintains Dale's team at F1 pit stop efficiency through smart reboots at natural breakpoints",
-              "technical_details": {
-                "approach": "Context awareness triggers before degradation",
-                "optimization": "Natural breakpoint detection for seamless transitions",
-                "coverage": "All 22 specialist personalities benefit"
-              }
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {
-              "completion_date": "2025-08-06T18:29:43.342881",
-              "performance_impact": "Prevents brain fog and maintains F1 pit stop efficiency",
-              "specialist_count": 22,
-              "feature": "Intelligent Context Management"
-            }
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 1.5
-        },
-        "1fbead4b-a6b5-495c-a747-361f2fbecf93": {
-          "memory": {
-            "id": "1fbead4b-a6b5-495c-a747-361f2fbecf93",
-            "timestamp": "2025-08-06T18:29:01.747475",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "Creative_Director"
-            },
-            "event": {
-              "type": "creation",
-              "category": "creative",
-              "description": "Create content showing journey capture building the moat in real-time"
-            },
-            "connections": {
-              "influenced_by": [
-                "0b0f5ec9-8ec9-4e68-a594-5035358872a7"
-              ],
-              "influences": []
-            },
-            "context": {
-              "session_id": "demo",
-              "project": "OS-001"
-            },
-            "content": {
-              "insight": "Visual demonstration of moat-building resonates with audience",
-              "rationale": "CTO's quick capture system provides perfect content hook"
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influenced_by": [
-              "0b0f5ec9-8ec9-4e68-a594-5035358872a7"
-            ],
-            "influences": []
-          },
-          "weight": 1.6500000000000001
-        },
-        "0b0f5ec9-8ec9-4e68-a594-5035358872a7": {
-          "memory": {
-            "id": "0b0f5ec9-8ec9-4e68-a594-5035358872a7",
-            "timestamp": "2025-08-06T18:29:01.738946",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "technical",
-              "description": "Journey capture system can start collecting data immediately with simple SQLite"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "demo",
-              "project": "OS-001"
-            },
-            "content": {
-              "insight": "Quick wins build momentum - deploy basic capture TODAY",
-              "data": {
-                "implementation": "quick_capture.py",
-                "first_journey": "70176757a84d"
-              }
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 1.5
-        },
-        "162caa7f-b8fd-4d14-b19c-effa4c4e37f2": {
-          "memory": {
-            "id": "162caa7f-b8fd-4d14-b19c-effa4c4e37f2",
-            "timestamp": "2025-08-06T18:29:01.727031",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "strategic",
-              "description": "Strategic pivot to build Internal Memory System first - OS collective soul before external journeys",
-              "significance": "critical"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "2025-08-05-evening",
-              "project": "OS-001",
-              "external_references": [
-                "schemas/internal_memory_schema_v01.json",
-                "schemas/journey_schema_v01.json"
-              ]
-            },
-            "content": {
-              "insight": "The OS needs a collective soul where knowledge flows between entities and modes",
-              "rationale": "Internal memory enables CTO discoveries to flow to Creative Director, Crassus wisdom to influence implementations",
-              "data": {
-                "pivot_order": [
-                  "Internal Memory System (collective soul)",
-                  "Cat nutrition journeys",
-                  "Cancer therapy scale",
-                  "Never: general health"
-                ]
-              }
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {
-              "confidence": 1.0,
-              "tags": [
-                "strategic_pivot",
-                "internal_memory",
-                "collective_soul"
-              ]
-            }
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 4.5
-        },
-        "d9bf7403-f2c0-4be6-9e9e-f9aa132c4673": {
-          "memory": {
-            "id": "d9bf7403-f2c0-4be6-9e9e-f9aa132c4673",
-            "timestamp": "2025-08-06T18:28:55.491176",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "Creative_Director"
-            },
-            "event": {
-              "type": "creation",
-              "category": "creative",
-              "description": "Create content showing journey capture building the moat in real-time"
-            },
-            "connections": {
-              "influenced_by": [
-                "c5e59392-d179-4114-89ab-8748ab7ea3b8"
-              ],
-              "influences": []
-            },
-            "context": {
-              "session_id": "demo",
-              "project": "OS-001"
-            },
-            "content": {
-              "insight": "Visual demonstration of moat-building resonates with audience",
-              "rationale": "CTO's quick capture system provides perfect content hook"
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influenced_by": [
-              "c5e59392-d179-4114-89ab-8748ab7ea3b8"
-            ],
-            "influences": []
-          },
-          "weight": 1.6500000000000001
-        },
-        "c5e59392-d179-4114-89ab-8748ab7ea3b8": {
-          "memory": {
-            "id": "c5e59392-d179-4114-89ab-8748ab7ea3b8",
-            "timestamp": "2025-08-06T18:28:55.483858",
-            "version": "0.1.0",
-            "entity": {
-              "type": "pompey",
-              "name": "Pompey",
-              "mode": "CTO"
-            },
-            "event": {
-              "type": "discovery",
-              "category": "technical",
-              "description": "Journey capture system can start collecting data immediately with simple SQLite"
-            },
-            "connections": {
-              "influences": [],
-              "influenced_by": []
-            },
-            "context": {
-              "session_id": "demo",
-              "project": "OS-001"
-            },
-            "content": {
-              "insight": "Quick wins build momentum - deploy basic capture TODAY",
-              "data": {
-                "implementation": "quick_capture.py",
-                "first_journey": "70176757a84d"
-              }
-            },
-            "outcome": {
-              "status": "pending"
-            },
-            "metadata": {}
-          },
-          "connections": {
-            "influences": [],
-            "influenced_by": []
-          },
-          "weight": 1.5
+          "weight": 3.5999999999999996
         }
       },
-      "edges": [
-        {
-          "from": "91d0c255-d5cb-48a6-9554-012f19b81a3d",
-          "to": "b57223d3-5b83-489f-b9e2-38b08cf736e2",
-          "type": "influenced_by"
-        },
-        {
-          "from": "0b0f5ec9-8ec9-4e68-a594-5035358872a7",
-          "to": "1fbead4b-a6b5-495c-a747-361f2fbecf93",
-          "type": "influenced_by"
-        },
-        {
-          "from": "c5e59392-d179-4114-89ab-8748ab7ea3b8",
-          "to": "d9bf7403-f2c0-4be6-9e9e-f9aa132c4673",
-          "type": "influenced_by"
-        }
-      ],
+      "edges": [],
       "clusters": {}
     }
   }

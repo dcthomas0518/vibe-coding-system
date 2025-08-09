@@ -18,7 +18,7 @@ import glob
 sys.path.append(str(Path(__file__).parent.parent.parent))
 sys.path.append(str(Path(__file__).parent))
 
-from knowledge_indexer import VectorKnowledgeBase
+from knowledge_indexer import KnowledgeIndexer as VectorKnowledgeBase
 
 # Configure logging
 logging.basicConfig(

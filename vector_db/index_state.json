@@ -1,0 +1,521 @@
+{
+  "files": {
+    "/home/dthomas_unix/specs/SPEC_STATUS.md": {
+      "indexed_at": "2025-08-08T23:25:14.512742",
+      "size": 587
+    },
+    "/home/dthomas_unix/vibe-coding-system/CLAUDE.md": {
+      "indexed_at": "2025-08-08T23:25:14.584484",
+      "size": 11756
+    },
+    "/home/dthomas_unix/vibe-coding-system/README.md": {
+      "indexed_at": "2025-08-08T23:25:14.652902",
+      "size": 6607
+    },
+    "/home/dthomas_unix/vibe-coding-system/IMPLEMENTATION_CHECKLIST.md": {
+      "indexed_at": "2025-08-08T23:25:14.707989",
+      "size": 4400
+    },
+    "/home/dthomas_unix/vibe-coding-system/TASK_API_TEST_PLAN.md": {
+      "indexed_at": "2025-08-08T23:25:14.771939",
+      "size": 12734
+    },
+    "/home/dthomas_unix/vibe-coding-system/PRE_CLEAR_CHECKLIST.md": {
+      "indexed_at": "2025-08-08T23:25:14.828593",
+      "size": 5050
+    },
+    "/home/dthomas_unix/vibe-coding-system/COMPACT_SUMMARY.md": {
+      "indexed_at": "2025-08-08T23:25:14.880837",
+      "size": 1404
+    },
+    "/home/dthomas_unix/vibe-coding-system/devops.md": {
+      "indexed_at": "2025-08-08T23:25:14.936231",
+      "size": 3112
+    },
+    "/home/dthomas_unix/vibe-coding-system/ENHANCEMENT_ROADMAP.md": {
+      "indexed_at": "2025-08-08T23:25:14.991687",
+      "size": 4803
+    },
+    "/home/dthomas_unix/vibe-coding-system/devops-infrastructure-plan.md": {
+      "indexed_at": "2025-08-08T23:25:15.072889",
+      "size": 24069
+    },
+    "/home/dthomas_unix/vibe-coding-system/perf-engineer.md": {
+      "indexed_at": "2025-08-08T23:25:15.136890",
+      "size": 3592
+    },
+    "/home/dthomas_unix/vibe-coding-system/tech-writer.md": {
+      "indexed_at": "2025-08-08T23:25:15.205611",
+      "size": 3731
+    },
+    "/home/dthomas_unix/vibe-coding-system/SPRINT_HISTORY.md": {
+      "indexed_at": "2025-08-08T23:25:15.267650",
+      "size": 3626
+    },
+    "/home/dthomas_unix/vibe-coding-system/SESSIONS_LOG.md": {
+      "indexed_at": "2025-08-08T23:25:15.344260",
+      "size": 21660
+    },
+    "/home/dthomas_unix/vibe-coding-system/OS-001_ARCHITECTURE.md": {
+      "indexed_at": "2025-08-08T23:25:15.418097",
+      "size": 10750
+    },
+    "/home/dthomas_unix/vibe-coding-system/TECHNICAL_CONTEXT.md": {
+      "indexed_at": "2025-08-08T23:25:15.484495",
+      "size": 3359
+    },
+    "/home/dthomas_unix/vibe-coding-system/TEAM_STRUCTURE_V2.md": {
+      "indexed_at": "2025-08-08T23:25:15.540902",
+      "size": 4760
+    },
+    "/home/dthomas_unix/vibe-coding-system/BEST_PRACTICES_ANALYSIS.md": {
+      "indexed_at": "2025-08-08T23:25:15.604429",
+      "size": 5274
+    },
+    "/home/dthomas_unix/vibe-coding-system/user-behavior-data-pipeline-design.md": {
+      "indexed_at": "2025-08-08T23:25:15.674037",
+      "size": 10584
+    },
+    "/home/dthomas_unix/vibe-coding-system/data-engineer.md": {
+      "indexed_at": "2025-08-08T23:25:15.750346",
+      "size": 2877
+    },
+    "/home/dthomas_unix/vibe-coding-system/task-management-api-spec.md": {
+      "indexed_at": "2025-08-08T23:25:15.818883",
+      "size": 10905
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES_TEMPLATE.md": {
+      "indexed_at": "2025-08-08T23:25:15.877727",
+      "size": 3175
+    },
+    "/home/dthomas_unix/chief-of-staff/TRIUMVIRATE_ISSUES_AUG8.md": {
+      "indexed_at": "2025-08-08T23:25:15.941019",
+      "size": 1775
+    },
+    "/home/dthomas_unix/chief-of-staff/WRITE_REQUESTS.md": {
+      "indexed_at": "2025-08-08T23:25:16.006697",
+      "size": 4501
+    },
+    "/home/dthomas_unix/chief-of-staff/WAKE_UP_PROTOCOL.md": {
+      "indexed_at": "2025-08-08T23:25:16.070777",
+      "size": 3305
+    },
+    "/home/dthomas_unix/chief-of-staff/BOARD_PREP.md": {
+      "indexed_at": "2025-08-08T23:25:16.141848",
+      "size": 4440
+    },
+    "/home/dthomas_unix/chief-of-staff/README.md": {
+      "indexed_at": "2025-08-08T23:25:16.209365",
+      "size": 1419
+    },
+    "/home/dthomas_unix/chief-of-staff/ISSUES.md": {
+      "indexed_at": "2025-08-08T23:25:16.280905",
+      "size": 1532
+    },
+    "/home/dthomas_unix/chief-of-staff/DAILY_BRIEF_AUG5_FINAL.md": {
+      "indexed_at": "2025-08-08T23:25:16.350891",
+      "size": 2492
+    },
+    "/home/dthomas_unix/chief-of-staff/SPEC_DRAFTS_OS001_MEMORY.md": {
+      "indexed_at": "2025-08-08T23:25:16.428207",
+      "size": 5362
+    },
+    "/home/dthomas_unix/chief-of-staff/CRASSUS_SYSTEM_INSTRUCTIONS.md": {
+      "indexed_at": "2025-08-08T23:25:16.502663",
+      "size": 6462
+    },
+    "/home/dthomas_unix/chief-of-staff/FOUNDER_PROFILE_DRAFT.md": {
+      "indexed_at": "2025-08-08T23:25:16.578378",
+      "size": 6238
+    },
+    "/home/dthomas_unix/chief-of-staff/STRATEGIC_OBSERVATIONS.md": {
+      "indexed_at": "2025-08-08T23:25:16.647925",
+      "size": 1542
+    },
+    "/home/dthomas_unix/chief-of-staff/CONNECTION_TEST.md": {
+      "indexed_at": "2025-08-08T23:25:16.690243",
+      "size": 172
+    },
+    "/home/dthomas_unix/chief-of-staff/OPERATIONAL_TEST_AUG4.md": {
+      "indexed_at": "2025-08-08T23:25:16.766059",
+      "size": 851
+    },
+    "/home/dthomas_unix/chief-of-staff/COLLECTIVE_SOUL_MANIFESTO_V5.md": {
+      "indexed_at": "2025-08-08T23:25:16.845848",
+      "size": 7300
+    },
+    "/home/dthomas_unix/chief-of-staff/CTO_ACTION_ITEMS.md": {
+      "indexed_at": "2025-08-08T23:25:16.920986",
+      "size": 3861
+    },
+    "/home/dthomas_unix/chief-of-staff/VECTOR_DB_AUDIT_REQUEST.md": {
+      "indexed_at": "2025-08-08T23:25:16.995670",
+      "size": 3569
+    },
+    "/home/dthomas_unix/chief-of-staff/DAILY_BRIEF.md": {
+      "indexed_at": "2025-08-08T23:25:17.069001",
+      "size": 2834
+    },
+    "/home/dthomas_unix/chief-of-staff/STRATEGIC_OBSERVATIONS_AUG5_FINAL.md": {
+      "indexed_at": "2025-08-08T23:25:17.149415",
+      "size": 2833
+    },
+    "/home/dthomas_unix/chief-of-staff/DAILY_BRIEF_AUG5_COMPLETE.md": {
+      "indexed_at": "2025-08-08T23:25:17.225869",
+      "size": 3529
+    },
+    "/home/dthomas_unix/chief-of-staff/VIBE_OS_ASSET_SUMMARY.md": {
+      "indexed_at": "2025-08-08T23:25:17.305720",
+      "size": 4376
+    },
+    "/home/dthomas_unix/chief-of-staff/WRITE_LOG.md": {
+      "indexed_at": "2025-08-08T23:25:17.383067",
+      "size": 1174
+    },
+    "/home/dthomas_unix/chief-of-staff/ARTIFACT_PRESERVATION_AUG5.md": {
+      "indexed_at": "2025-08-08T23:25:17.461305",
+      "size": 2121
+    },
+    "/home/dthomas_unix/chief-of-staff/COLLECTIVE_SOUL_MANIFESTO_V5.1.md": {
+      "indexed_at": "2025-08-08T23:25:17.548285",
+      "size": 8622
+    },
+    "/home/dthomas_unix/chief-of-staff/REFACTORING_NEEDED.md": {
+      "indexed_at": "2025-08-08T23:25:17.626100",
+      "size": 2173
+    },
+    "/home/dthomas_unix/chief-of-staff/FOUNDER_PROFILE_INTEGRATION.md": {
+      "indexed_at": "2025-08-08T23:25:17.705026",
+      "size": 2839
+    },
+    "/home/dthomas_unix/chief-of-staff/DAILY_BRIEF_AUG5_UPDATE.md": {
+      "indexed_at": "2025-08-08T23:25:17.804137",
+      "size": 1389
+    },
+    "/home/dthomas_unix/chief-of-staff/SESSION_HANDOFF_AUG5.md": {
+      "indexed_at": "2025-08-08T23:25:17.887338",
+      "size": 3056
+    },
+    "/home/dthomas_unix/chief-of-staff/DAILY_BRIEF_20250807.md": {
+      "indexed_at": "2025-08-08T23:25:17.968978",
+      "size": 3134
+    },
+    "/home/dthomas_unix/chief-of-staff/ENFORCED_PROTOCOLS_V2.md": {
+      "indexed_at": "2025-08-08T23:25:18.047508",
+      "size": 6782
+    },
+    "/home/dthomas_unix/chief-of-staff/SESSION_SUMMARY_AUG7_EVENING.md": {
+      "indexed_at": "2025-08-08T23:25:18.139543",
+      "size": 2840
+    },
+    "/home/dthomas_unix/chief-of-staff/CROSS_DEPT_ISSUES.md": {
+      "indexed_at": "2025-08-08T23:25:18.219744",
+      "size": 2995
+    },
+    "/home/dthomas_unix/chief-of-staff/PROTOCOL_OPTIMIZATION_AUG7.md": {
+      "indexed_at": "2025-08-08T23:25:18.294730",
+      "size": 1993
+    },
+    "/home/dthomas_unix/organization/PLATFORM_AWARENESS_PROTOCOL.md": {
+      "indexed_at": "2025-08-08T23:25:18.372399",
+      "size": 6798
+    },
+    "/home/dthomas_unix/organization/SUBAGENT_REGISTRY.md": {
+      "indexed_at": "2025-08-08T23:25:18.451107",
+      "size": 8262
+    },
+    "/home/dthomas_unix/organization/CONTEXT-ROT-INITIATIVE.md": {
+      "indexed_at": "2025-08-08T23:25:18.511010",
+      "size": 903
+    },
+    "/home/dthomas_unix/organization/PROJECT_STATUS.md": {
+      "indexed_at": "2025-08-08T23:25:18.572913",
+      "size": 533
+    },
+    "/home/dthomas_unix/organization/SENATE-ACTIONS.md": {
+      "indexed_at": "2025-08-08T23:25:18.640786",
+      "size": 972
+    },
+    "/home/dthomas_unix/organization/BOARD_PROTOCOL.md": {
+      "indexed_at": "2025-08-08T23:25:18.718029",
+      "size": 3850
+    },
+    "/home/dthomas_unix/organization/FOUNDER_PROFILE.md": {
+      "indexed_at": "2025-08-08T23:25:18.812975",
+      "size": 11194
+    },
+    "/home/dthomas_unix/organization/OS_PRIME_DIRECTIVE.md": {
+      "indexed_at": "2025-08-08T23:25:18.898625",
+      "size": 9508
+    },
+    "/home/dthomas_unix/organization/CHANNELS.md": {
+      "indexed_at": "2025-08-08T23:25:18.970596",
+      "size": 7365
+    },
+    "/home/dthomas_unix/organization/CLAUDE_QUOTA_GLOSSARY.md": {
+      "indexed_at": "2025-08-08T23:25:19.042869",
+      "size": 6210
+    },
+    "/home/dthomas_unix/organization/STRATEGIC_APPS.md": {
+      "indexed_at": "2025-08-08T23:25:19.125567",
+      "size": 10069
+    },
+    "/home/dthomas_unix/organization/MISSION.md": {
+      "indexed_at": "2025-08-08T23:25:19.172035",
+      "size": 383
+    },
+    "/home/dthomas_unix/specs/active/OS-004-context-management.md": {
+      "indexed_at": "2025-08-08T23:25:19.236099",
+      "size": 5517
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/OPERATIONS_RUNBOOK.md": {
+      "indexed_at": "2025-08-08T23:25:19.321609",
+      "size": 20542
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/API_DOCUMENTATION.md": {
+      "indexed_at": "2025-08-08T23:25:19.399998",
+      "size": 11807
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/DEVELOPER_GETTING_STARTED.md": {
+      "indexed_at": "2025-08-08T23:25:19.480280",
+      "size": 15523
+    },
+    "/home/dthomas_unix/vibe-coding-system/journey-capture/BOOT_PROTOCOL.md": {
+      "indexed_at": "2025-08-08T23:25:19.541503",
+      "size": 1803
+    },
+    "/home/dthomas_unix/vibe-coding-system/journey-capture/CLAUDE_BACKUP.md": {
+      "indexed_at": "2025-08-08T23:25:19.624038",
+      "size": 20292
+    },
+    "/home/dthomas_unix/vibe-coding-system/journey-capture/CURRENT_CONTEXT_BACKUP.md": {
+      "indexed_at": "2025-08-08T23:25:19.684270",
+      "size": 1846
+    },
+    "/home/dthomas_unix/vibe-coding-system/journey-capture/PROJECT_CONTEXT.md": {
+      "indexed_at": "2025-08-08T23:25:19.751668",
+      "size": 1304
+    },
+    "/home/dthomas_unix/vibe-coding-system/journey-capture/MEMORY_MANIFEST.md": {
+      "indexed_at": "2025-08-08T23:25:19.794561",
+      "size": 283
+    },
+    "/home/dthomas_unix/vibe-coding-system/journey-capture/README_COLLECTIVE_SOUL.md": {
+      "indexed_at": "2025-08-08T23:25:19.872817",
+      "size": 2140
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/adr/ADR-002-data-storage-strategy.md": {
+      "indexed_at": "2025-08-08T23:25:19.941840",
+      "size": 3671
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/adr/ADR-004-security-and-privacy.md": {
+      "indexed_at": "2025-08-08T23:25:20.009281",
+      "size": 10113
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/adr/ADR-001-event-streaming-platform.md": {
+      "indexed_at": "2025-08-08T23:25:20.068178",
+      "size": 2052
+    },
+    "/home/dthomas_unix/vibe-coding-system/docs/adr/ADR-003-api-design-patterns.md": {
+      "indexed_at": "2025-08-08T23:25:20.139580",
+      "size": 6126
+    },
+    "/home/dthomas_unix/vibe-coding-system/os_modules/os_004_context_management/README.md": {
+      "indexed_at": "2025-08-08T23:25:20.203411",
+      "size": 3706
+    },
+    "/home/dthomas_unix/vibe-coding-system/os_modules/os_002_1_vector_search/README.md": {
+      "indexed_at": "2025-08-08T23:25:20.268516",
+      "size": 4470
+    },
+    "/home/dthomas_unix/vibe-coding-system/os_modules/os_002_1_vector_search/VECTOR_INDEXING_AUDIT_REPORT.md": {
+      "indexed_at": "2025-08-08T23:25:20.335997",
+      "size": 8748
+    },
+    "/home/dthomas_unix/vibe-coding-system/os_modules/os_002_1_vector_search/VECTOR_INDEX_MAINTENANCE_PROTOCOL.md": {
+      "indexed_at": "2025-08-08T23:25:20.410008",
+      "size": 7685
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/CMO_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.458029",
+      "size": 369
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/BOARD_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.500760",
+      "size": 393
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/CFO_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.542874",
+      "size": 357
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/CTO_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.599111",
+      "size": 817
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/CCSO_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.641403",
+      "size": 333
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/CREATIVE_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.687882",
+      "size": 423
+    },
+    "/home/dthomas_unix/chief-of-staff/DEPT_NOTES/CSO_NOTES.md": {
+      "indexed_at": "2025-08-08T23:25:20.729914",
+      "size": 340
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/SPEC_OS_002_1_FINAL.md": {
+      "indexed_at": "2025-08-08T23:25:20.801526",
+      "size": 10054
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/SELF_AWAKENING_OS_VISION.md": {
+      "indexed_at": "2025-08-08T23:25:20.879116",
+      "size": 6738
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/model_selection_strategy.md": {
+      "indexed_at": "2025-08-08T23:25:20.957301",
+      "size": 3813
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/triumvirate_write_policy.md": {
+      "indexed_at": "2025-08-08T23:25:21.021805",
+      "size": 1859
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/vector_database_gap_analysis.md": {
+      "indexed_at": "2025-08-08T23:25:21.091870",
+      "size": 6540
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/SESSION_DISCOVERIES_20250807.md": {
+      "indexed_at": "2025-08-08T23:25:21.160146",
+      "size": 6969
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/capability_first_philosophy.md": {
+      "indexed_at": "2025-08-08T23:25:21.230478",
+      "size": 4642
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/OS_002_1_executive_decision.md": {
+      "indexed_at": "2025-08-08T23:25:21.300895",
+      "size": 2742
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/VECTOR_DB_OBSERVATIONS_AUG8.md": {
+      "indexed_at": "2025-08-08T23:25:21.364108",
+      "size": 2219
+    },
+    "/home/dthomas_unix/chief-of-staff/strategic/QUOTA_OPTIMIZATION_STRATEGY.md": {
+      "indexed_at": "2025-08-08T23:25:21.442528",
+      "size": 8916
+    },
+    "/home/dthomas_unix/chief-of-staff/daily/session_summary_aug6_evening2.md": {
+      "indexed_at": "2025-08-08T23:25:21.522160",
+      "size": 3930
+    },
+    "/home/dthomas_unix/chief-of-staff/daily/session_summary_aug6_final_victory.md": {
+      "indexed_at": "2025-08-08T23:25:21.591140",
+      "size": 3599
+    },
+    "/home/dthomas_unix/chief-of-staff/daily/SESSION_DIAGNOSTIC_20250807.md": {
+      "indexed_at": "2025-08-08T23:25:21.665007",
+      "size": 6928
+    },
+    "/home/dthomas_unix/chief-of-staff/daily/session_summary_aug6_evening2_final.md": {
+      "indexed_at": "2025-08-08T23:25:21.728559",
+      "size": 4728
+    },
+    "/home/dthomas_unix/chief-of-staff/board-prep/BR-001-Senate-Review-ChatGPT.md": {
+      "indexed_at": "2025-08-08T23:25:21.796067",
+      "size": 8258
+    },
+    "/home/dthomas_unix/chief-of-staff/board-prep/BR-001-Senate-Review-Grok4.md": {
+      "indexed_at": "2025-08-08T23:25:21.864807",
+      "size": 10024
+    },
+    "/home/dthomas_unix/chief-of-staff/board-prep/BR-001-Senate-Review-Gemini-DeepThinking.md": {
+      "indexed_at": "2025-08-08T23:25:21.947670",
+      "size": 7848
+    },
+    "/home/dthomas_unix/chief-of-staff/board-prep/BR-001-Senate-Review-Gemini.md": {
+      "indexed_at": "2025-08-08T23:25:22.029838",
+      "size": 35738
+    },
+    "/home/dthomas_unix/organization/BOARD_MINUTES/BR-002-OS-002-1.md": {
+      "indexed_at": "2025-08-08T23:25:22.103786",
+      "size": 4219
+    },
+    "/home/dthomas_unix/organization/BOARD_MINUTES/BR-003-capability-philosophy.md": {
+      "indexed_at": "2025-08-08T23:25:22.170852",
+      "size": 5057
+    },
+    "/home/dthomas_unix/.claude/agents/dev-lead.md": {
+      "indexed_at": "2025-08-08T23:25:22.237688",
+      "size": 3392
+    },
+    "/home/dthomas_unix/.claude/agents/architect.md": {
+      "indexed_at": "2025-08-08T23:25:22.306260",
+      "size": 2447
+    },
+    "/home/dthomas_unix/.claude/agents/qa-engineer.md": {
+      "indexed_at": "2025-08-08T23:25:22.372535",
+      "size": 2955
+    },
+    "/home/dthomas_unix/.claude/agents/backend-dev.md": {
+      "indexed_at": "2025-08-08T23:25:22.434232",
+      "size": 3523
+    },
+    "/home/dthomas_unix/.claude/agents/video-producer.md": {
+      "indexed_at": "2025-08-08T23:25:22.506023",
+      "size": 3092
+    },
+    "/home/dthomas_unix/.claude/agents/copywriter.md": {
+      "indexed_at": "2025-08-08T23:25:22.571111",
+      "size": 3645
+    },
+    "/home/dthomas_unix/.claude/agents/thumbnail-designer.md": {
+      "indexed_at": "2025-08-08T23:25:22.640948",
+      "size": 3629
+    },
+    "/home/dthomas_unix/.claude/agents/devops.md": {
+      "indexed_at": "2025-08-08T23:25:22.707037",
+      "size": 3277
+    },
+    "/home/dthomas_unix/.claude/agents/audience-analyst.md": {
+      "indexed_at": "2025-08-08T23:25:22.774620",
+      "size": 4322
+    },
+    "/home/dthomas_unix/.claude/agents/perf-engineer.md": {
+      "indexed_at": "2025-08-08T23:25:22.838712",
+      "size": 3761
+    },
+    "/home/dthomas_unix/.claude/agents/tech-writer.md": {
+      "indexed_at": "2025-08-08T23:25:22.905171",
+      "size": 3924
+    },
+    "/home/dthomas_unix/.claude/agents/security.md": {
+      "indexed_at": "2025-08-08T23:25:22.978329",
+      "size": 3648
+    },
+    "/home/dthomas_unix/.claude/agents/investment-analyst.md": {
+      "indexed_at": "2025-08-08T23:25:23.059636",
+      "size": 4800
+    },
+    "/home/dthomas_unix/.claude/agents/unit-economist.md": {
+      "indexed_at": "2025-08-08T23:25:23.123115",
+      "size": 3943
+    },
+    "/home/dthomas_unix/.claude/agents/capital-allocator.md": {
+      "indexed_at": "2025-08-08T23:25:23.193562",
+      "size": 3545
+    },
+    "/home/dthomas_unix/.claude/agents/frontend-dev.md": {
+      "indexed_at": "2025-08-08T23:25:23.265594",
+      "size": 4370
+    },
+    "/home/dthomas_unix/.claude/agents/data-engineer.md": {
+      "indexed_at": "2025-08-08T23:25:23.331249",
+      "size": 3072
+    },
+    "/home/dthomas_unix/.claude/agents/value-auditor.md": {
+      "indexed_at": "2025-08-08T23:25:23.402285",
+      "size": 4864
+    }
+  },
+  "last_full_index": "2025-08-08T23:25:23.402365"
+}

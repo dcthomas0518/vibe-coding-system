@@ -1,17 +1,17 @@
 ORGANIZATIONAL MEMORY METRICS
 ============================
-Total Memories: 48
-Generated: 2025-08-07T09:09:10.591985
+Total Memories: 54
+Generated: 2025-08-08T22:26:03.203134
 
 Memories by Entity:
   Caesar (Founder): 3
   Dale (Founder): 1
   Pompey (CFO): 1
-  Pompey (CTO): 38
+  Pompey (CTO): 44
   Pompey (Creative_Director): 5
 
 Memories by Type:
   creation: 6
   decision: 4
-  discovery: 36
+  discovery: 42
   success: 2

@@ -80,8 +80,10 @@ class MemoryLoader:
         if current_context_path.exists():
             content = current_context_path.read_text()
             # Parse for active project
-            if "OS-001" in content:
-                markers['active_project'] = "OS-001"
+            if "Studio-001" in content:
+                markers['active_project'] = "Studio-001"
+            elif "OS-001" in content:  # Legacy support
+                markers['active_project'] = "Studio-001"
             elif "TR-001" in content:
                 markers['active_project'] = "TR-001"
         

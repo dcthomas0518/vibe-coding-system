@@ -1,4 +1,4 @@
-# Vibe Coding System Instructions
+# The Collective Soul Studio Instructions
 
 ## System Overview
 

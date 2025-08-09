@@ -133,6 +133,106 @@ class KnowledgeIndexer:
         stored_hash = self.document_hashes.get(str_path, '')
         return current_hash != stored_hash
         
+    def add_document(self, file_path: Path, force: bool = False) -> bool:
+        """Add a document to the vector index"""
+        if not self.collection or not self.embedder:
+            self.logger.warning("ChromaDB or embedder not initialized")
+            return False
+            
+        # Check if document needs reindexing
+        if not force and not self.should_reindex(file_path):
+            return False
+            
+        try:
+            # Read document content
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                
+            # Create chunks
+            chunks = self._chunk_document(content)
+            
+            # Generate embeddings and metadata for each chunk
+            for i, chunk in enumerate(chunks):
+                chunk_id = f"{file_path}_{i}"
+                
+                # Create metadata
+                metadata = {
+                    "source": str(file_path),
+                    "chunk_index": i,
+                    "category": self._categorize_document(file_path),
+                    "timestamp": datetime.now().isoformat()
+                }
+                
+                # Add to collection
+                self.collection.add(
+                    documents=[chunk],
+                    metadatas=[metadata],
+                    ids=[chunk_id]
+                )
+            
+            # Update hash
+            self.document_hashes[str(file_path)] = self._hash_file(file_path)
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Failed to add document {file_path}: {e}")
+            return False
+    
+    def _chunk_document(self, content: str, chunk_size: int = 1000) -> List[str]:
+        """Split document into chunks for indexing"""
+        # Simple chunking by paragraphs or size
+        lines = content.split('\n')
+        chunks = []
+        current_chunk = []
+        current_size = 0
+        
+        for line in lines:
+            line_size = len(line)
+            if current_size + line_size > chunk_size and current_chunk:
+                chunks.append('\n'.join(current_chunk))
+                current_chunk = [line]
+                current_size = line_size
+            else:
+                current_chunk.append(line)
+                current_size += line_size
+        
+        if current_chunk:
+            chunks.append('\n'.join(current_chunk))
+            
+        return chunks if chunks else [content]
+    
+    def index_all_documents(self) -> int:
+        """Index all critical documents"""
+        indexed_count = 0
+        
+        for pattern in self.CRITICAL_DOCS:
+            # Convert pattern to absolute path
+            if pattern.startswith('**'):
+                # Recursive glob
+                files = list(self.base_path.glob(pattern))
+            else:
+                # Regular glob from base path
+                search_path = self.base_path / pattern.lstrip('/')
+                if '*' in str(search_path):
+                    files = list(search_path.parent.glob(search_path.name))
+                elif search_path.exists() and search_path.is_file():
+                    files = [search_path]
+                else:
+                    files = []
+            
+            for file_path in files:
+                if file_path.suffix == '.md' and self.add_document(file_path):
+                    indexed_count += 1
+                    
+        # Save hashes after indexing
+        self._save_hashes()
+        return indexed_count
+    
+    @property
+    def persist_directory(self) -> str:
+        """Get the persistence directory path"""
+        return str(self.db_path)
+    
     def _categorize_document(self, file_path: Path) -> str:
         """Determine document category based on path patterns"""
         str_path = str(file_path)
